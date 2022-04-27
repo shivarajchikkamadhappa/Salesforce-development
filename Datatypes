@@ -1,0 +1,34 @@
+Sample Apex code
+
+
+public class Datatypes {
+    public static void main()
+    {
+        string Company = 'SHIVU COMPANY';
+        system.debug(Company);
+        
+        string Role = 'CEO';
+        system.debug(Role);
+        
+        string Name = 'SHIVU';
+        system.debug(Name);
+        
+        boolean DevelopedCompany = true;
+        system.debug(DevelopedCompany);
+        
+        Integer Employees = 95;
+        system.debug(Employees);
+        
+        Long Networth = 7000000L;
+        system.debug(Networth);
+        
+        Decimal WorkingHours = 7.5;
+        system.debug(WorkingHours);
+        
+        Double workingShifts = 4/2;
+        system.debug(workingShifts);
+        
+        
+    }
+    
+}
