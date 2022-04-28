@@ -1,0 +1,32 @@
+Arithmetic operators
+
+public class Arithmeticoperators 
+{
+    Public static void math()
+    {
+     System.debug('ADDITION');
+     Integer A = 10;
+     Integer B = 20;
+     Integer c = A+B;
+     System.debug('A+B =' +C);
+        
+     System.debug('SUBTRACTION');
+     Integer D = 100;
+     Integer E = 20;
+     Integer F = D-E;
+     System.debug('D-E =' +F);
+        
+     System.debug('MULTIPLICATION');
+     Integer G = 10;
+     Integer H = 20;
+     Integer I = G*H;
+     System.debug('G*H =' +I);
+        
+     System.debug('DIVISION');
+     Integer J = 25;
+     Integer K = 5;
+     Integer L = J+K;
+     System.debug('J+K =' +L);
+    }
+
+}
