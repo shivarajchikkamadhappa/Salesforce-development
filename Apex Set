@@ -1,0 +1,26 @@
+Apex Set
++++++++++++++++++++++++++++++++++++++++++++
+public class SetApex 
+{
+    public SetApex()
+    {
+     Set<String>Shivu = new Set<String>();
+        
+        Shivu.add('Bangalore');
+        Shivu.add('Chennai');
+        Shivu.add('Kochin');
+        Shivu.add('Mumbai');
+        Shivu.add('Hyderabad');
+        
+        System.debug(Shivu); 
+        
+        System.debug(Shivu.size());
+    }
+}
+
++++++++++++++++++++++++++++++++++++++++++++
+To run the Code
+
+SetApex obj = new SetApex
+
++++++++++++++++++++++++++++++++++++++++++++
