@@ -1,0 +1,26 @@
+Set Shivu
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+public class SetShivu
+{
+    public SetShivu()
+    {
+    Set<String>Subject = new Set <string>();
+        Subject.add('English');
+        Subject.add('Tamil');
+        Subject.add('Kannada');
+        Subject.add('Computer');
+        system.debug(Subject);
+        Boolean result = Subject.contains('Computer');
+        system.debug(result);
+    }
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+To run the code
+
+SetShivu obj=new SetShivu();
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
