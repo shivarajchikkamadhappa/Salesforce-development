@@ -1,0 +1,35 @@
+Apex collection 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+public class ApexCollection
+{
+    public ApexCollection()
+    {
+       Map<Integer,String> Raj = new Map<Integer,String>();
+        Raj.put(1, 'Tamil');
+        Raj.put(2, 'Kannada');
+        Raj.put(3, 'English');
+        Raj.put(4,'Telugu');
+        Raj.put(5,'Malayalam');
+        system.debug(Raj);
+        
+        List<String>Language = new List<String>();
+        Language = Raj.values();
+        system.debug(Language);
+        
+        Boolean rslt = Raj.containsKey(3);
+        System.debug(rslt);
+        System.debug(Raj.size());
+    }
+
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+To run code
+
+ApexCollection obj=new ApexCollection();
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
