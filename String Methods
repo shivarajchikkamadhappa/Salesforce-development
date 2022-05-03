@@ -1,0 +1,30 @@
+String Methods
+
+******************************************************************
+public class StringMethods
+{
+    public static void stringFunctions()
+    {
+    String Shivu ='hii i am shivu';
+    
+        System.debug('Capitalize =' +Shivu.Capitalize());
+        System.debug('contains=' +Shivu.contains('shivu'));
+        System.debug('Uppercase=' +shivu.touppercase());
+        System.debug('Lowercase=' +shivu.tolowercase());
+        System.debug('Equals=' +shivu.equals('hii i am shivu'));
+        System.debug('Length=' +shivu.length());
+        System.debug('Reverse=' +shivu.reverse());
+        system.debug(shivu);
+        System.debug('swap=' +shivu.swapcase());
+        System.debug('Split=' +shivu.split(''));
+        
+    }
+
+}
+
+******************************************************************
+To run the Code:-
+
+StringMethods.stringFunctions();
+
+******************************************************************
