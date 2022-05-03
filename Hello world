@@ -1,0 +1,20 @@
+Hello world
+
+*****************************************
+
+public class Sample 
+{
+    public static void Sample(){
+        
+        System.debug('Hello World!');
+    }
+}
+
+*****************************************
+
+To run the code:-
+
+sample.sample();
+
+
+****************************************
