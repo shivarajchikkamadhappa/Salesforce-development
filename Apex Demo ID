@@ -1,0 +1,22 @@
+Apex Demo ID
+
+*******************************************
+
+public class IDdemo 
+{
+    public IDdemo()
+    {
+        Set<id> shivuid = new set<id>();
+        shivuid.add('01I5j000001hAQi');
+        shivuid.add('01I5j000001hAcF');
+        system.debug('Ids =' + shivuid);
+    }
+
+}
+
+*******************************************
+To ru the program:-
+
+IDdemo obj=new IDdemo();
+
+*******************************************
