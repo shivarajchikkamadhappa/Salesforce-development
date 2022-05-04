@@ -1,0 +1,39 @@
+SampleString
+
+****************************************************
+
+public class SampleString 
+{
+    public SampleString()
+    {
+        set<string> WildAnimal = new set<String>();
+        WildAnimal.add('Lion');
+        WildAnimal.add('Tiger');
+        WildAnimal.add('Elephant');
+        WildAnimal.add('Cheatah');
+        
+        System.debug(WildAnimal);
+        
+        system.debug(WildAnimal.size());
+        
+        List<String> DomesticAnimal = new list<String>();
+        DomesticAnimal.add('Cow');
+        DomesticAnimal.add('Goat');
+        DomesticAnimal.add('Dog');
+        DomesticAnimal.add('Cat');
+        System.debug(DomesticAnimal);
+        
+        WildAnimal.addAll(DomesticAnimal);
+        
+        System.debug(WildAnimal);
+    }
+    
+}
+
+*******************************************************
+To run the Program:-
+
+SampleString obj=new SampleString();
+
+
+*******************************************************
