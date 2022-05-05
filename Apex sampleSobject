@@ -1,0 +1,17 @@
+Apex sampleSobject
+*****************************
+public class Sobjectsample 
+{
+    public static void Sobject()
+    {
+        contact con = new Contact();
+        Account acc = new Account();
+        acc.name = 'Rockingstar';
+        con.lastname = acc.name;
+        insert acc;
+        insert con;
+        
+    }
+
+}
+*****************************
