@@ -1,0 +1,32 @@
+Statesnames list
+
+#########################################
+
+public class States 
+{
+    public states()
+    {
+        Set<String>Statesnames = new set<String>();
+        Statesnames.add('Tamilnadu');
+        Statesnames.add('Karnataka');
+        Statesnames.add('Andra');
+        Statesnames.add('Kerala');
+        Statesnames.add('Telangana');
+        
+        System.debug(Statesnames);
+        
+        Boolean result = Statesnames.contains('Karnataka');
+        System.debug(result);
+        
+        system.debug(Statesnames.size());
+    }
+
+}
+
+#########################################
+
+TO RUN THE CODE:-
+
+States obj=new States();
+
+#########################################
