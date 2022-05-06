@@ -1,0 +1,41 @@
+Department using LIst
+
+**********************************************
+public class Departments 
+{
+    public Departments()
+    {
+        List<String>Course = new List<String>();
+        Course.add('MCA');
+        Course.add('MBA');
+        Course.add('MSC');
+        Course.add('MCOM');
+        Course.add('MTECH');
+        Course.add('ME');
+        System.debug(Course);
+        
+        System.debug(course.size());
+        
+        System.debug(Course.get(0));
+        
+        course.remove(1);
+        system.debug(course);
+        
+        course.add('MBA');
+        system.debug(course);
+        
+        course.sort();
+        system.debug(course);
+        
+    }
+
+}
+
+****************************************************
+
+TO RUN THE CODE :-
+
+Departments obj=new Departments();
+
+
+****************************************************
