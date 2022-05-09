@@ -1,0 +1,22 @@
+ApexInteger
+
+*******************************************************
+
+public class Apexinteger 
+{
+    public static void Addition()
+    {
+        integer a = 1;
+        integer b = 2;
+        integer c = a+b;
+        system.debug('a+b=' +c);
+        
+    }
+
+}
+
+*******************************************************
+
+To run the code :-
+
+Apexinteger.Addition();
