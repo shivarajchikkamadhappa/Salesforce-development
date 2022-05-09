@@ -1,0 +1,21 @@
+Apexsubtraction
+********************************************
+public class Apexsub
+{
+    public static void main()
+    {
+        integer A = 29;
+        integer B = 9;
+        integer C = A-B;
+        System.debug('A-B='+C);
+    }
+
+}
+
+********************************************
+
+To run the code:-
+
+Apexsub.main();
+
+********************************************
