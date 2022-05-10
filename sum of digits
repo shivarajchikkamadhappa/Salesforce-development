@@ -1,0 +1,28 @@
+Sum of digits
+
+***************************************************
+
+public class sumofdigits
+{
+    public static void main()
+    {
+        integer r,n,sum=0;
+        n=5649;
+        while(n>0)
+        {
+            r=math.mod(n,10);
+            n=n/10;
+            sum = r+sum;
+        }
+        system.debug('sum='+sum);
+    }
+    
+}
+
+***************************************************
+
+TO RUN THE CODE :-
+
+sumofdigits.main();
+
+***************************************************
