@@ -21,7 +21,8 @@ public class ListApex
         system.debug(shivulist.get(1));
         
         shivulist.clear();
-        
+      
+      
         system.debug(shivulist);
     }
     
