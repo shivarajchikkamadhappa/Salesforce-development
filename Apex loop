@@ -1,0 +1,28 @@
+Apex Loop
+
+***********************************
+public class Apexloop 
+{
+    public static void loop()
+    {
+        List<String>Names = new List<String>();
+        Names.add('shivu');
+        Names.add('shiva');
+        Names.add('shivaraj');
+        Names.add('raj');
+        
+        for(integer i=0; i<=3; i++)
+        {
+            system.debug(Names.get(i));
+        }
+        
+    }
+
+}
+**************************************
+
+To run the code :-
+
+Apexloop.loop();
+
+**************************************
