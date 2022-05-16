@@ -1,0 +1,29 @@
+APEX PALINDROME
+
+*************************************************************
+public class Palindrome 
+{
+    public static void main()
+    {
+        string name = 'MALAYALAM';
+        string reverse = name.reverse();
+        
+        if(name.equals(reverse))
+        {
+            system.debug('THE GIVEN VALUE IS PALINDROME :)');
+        }
+        else
+        {
+            system.debug('THE GIVEN VALUE IS NOT PALINDROME :(');
+        }
+        
+    }
+
+}
+   
+**************************************************************
+TO RUN THE CODE:-
+
+Palindrome.main();
+
+***************************************************************
