@@ -11,7 +11,7 @@ public class multiplicationtable
             System.debug( n +'*'+i+'=' +n*i);
         }        
      }
-
+       
 }
 
 **********************************************************
