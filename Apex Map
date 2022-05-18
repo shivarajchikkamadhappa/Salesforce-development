@@ -11,7 +11,7 @@ public class Rocky
         Shivu.put(3,'Praba');    
         Shivu.put(4,'Nithish');
         Shivu.put(5,'Pradeep');
-          
+             
         system.debug(Shivu);
         
         system.debug(shivu.get(2));
