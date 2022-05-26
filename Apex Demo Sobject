@@ -4,7 +4,7 @@
 public class DemoSobject 
 {
     public DemoSobject()
-    {      
+    {
         Employee__c employee = new Employee__c();
         employee.name = 'Shivaraj';
         insert employee;
