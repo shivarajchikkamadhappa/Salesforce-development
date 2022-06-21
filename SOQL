@@ -1,0 +1,19 @@
+SOQL 
+********************************************
+public class SOQL 
+{
+    public static void main(String Shivu)
+    {
+        String shiva = 'Select name, phone from '+Shivu;
+        system.debug(shiva);
+        List<sobject>shivaList = Database.query(shiva);
+        for(sobject s:shivaList)
+        {
+            system.debug(s);
+        }
+        
+    }
+
+}
+***********************************************
+To run the Code:-
