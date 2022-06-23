@@ -1,0 +1,35 @@
+                    LISTCOLLECTION
+**********************************************************
+
+public class Listcollection 
+{
+    public static void ListA()
+    {
+        List<string> Str=new List<string>();
+        str.add('Shiva');
+        str.add('shivu');
+        str.add('Shivaraj');
+        system.debug(str.get(1));
+        system.debug(str.size());
+        system.debug(str.contains('Raj'));
+        system.debug(str.remove(1));
+        system.debug(str.isempty());
+        List<integer>Str1=new List<integer>{2,4,6,8,10};
+        Str1.add(12);
+        Str1.add(14);
+        system.debug(str1.get(2));
+        system.debug(str1.size());
+        system.debug(str1.contains(16));
+        system.debug(str1.remove(3));
+        system.debug(str1.isempty());
+
+    }
+
+}
+
+**********************************************************
+
+To run the code:-
+Listcollection.ListA();
+
+**********************************************************
