@@ -1,0 +1,25 @@
+Setcollection
+*******************************************************
+public class setcollection
+{
+    public static void set()
+    {
+        Set<string> Str=new Set<string>();
+        str.add('Shiva');
+        str.add('shivu');
+        system.debug(str.size());
+        system.debug(str.contains('Raj'));
+        system.debug(str.remove('shivu'));
+        system.debug(str.isempty());
+        Set<integer>Str1=new Set<integer>{2,4,6,8,10};
+        Str1.add(12);
+        Str1.add(14);
+        system.debug(str1.size());
+        system.debug(str1.contains(16));
+        system.debug(str1.remove(14));
+        system.debug(str1.isempty());
+        
+    }
+
+}
+*********************************************************
