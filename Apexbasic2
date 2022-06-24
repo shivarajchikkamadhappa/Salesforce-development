@@ -1,0 +1,26 @@
+               APEXBASIC2
+*******************************************************************************
+public class Apexbasic 
+{
+    public static void demo()
+    {
+        Account acc = new Account();
+        acc.Name ='Shivaraj';
+        acc.Phone = '9487784376';
+        acc.AnnualRevenue = 72000;
+        system.debug(acc);
+        insert acc;
+    }
+    public static void demc()
+    {
+        Lead led = new Lead(Lastname='Raj', Company='SHIVARAJC' );
+        system.debug(led);
+        insert led;
+    }
+}
+
+*******************************************************************************
+To run the code:-
+Apexbasic.demo();
+
+*******************************************************************************
