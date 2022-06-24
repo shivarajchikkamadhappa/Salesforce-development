@@ -1,0 +1,24 @@
+APEXBASIC 3
+*************************************************************************************************
+public class Apexbasic 
+{
+public static void Dem()
+    {
+        List<contact> conc1 = [select Lastname, phone FROM contact where Lastname LIKE 'B%' ];
+        List<Account>acclist=new List<Account>();
+        for(Contact c:conc1)
+        {
+            Account Accu = new Account();
+            Accu.Name = c.Lastname;
+            Accu.Phone = c.Phone;
+            system.debug(Accu);
+            acclist.add(accu);
+        }
+        insert acclist;
+    }
+ }
+ *************************************************************************************************
+ To run the Code:-
+ Apexbasic.Dem();
+ 
+ *************************************************************************************************
