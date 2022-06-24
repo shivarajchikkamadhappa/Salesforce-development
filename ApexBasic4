@@ -1,0 +1,28 @@
+                                      APEXBASIC 4
+****************************************************************************************************
+public class Apexbasic 
+{
+
+    public static void opt()
+    {
+        List<Opportunity>optu = [select Name, ExpectedRevenue from Opportunity where name LIKE 'G%'];
+           List<Lead>Led1=new List<Lead>();
+           for(opportunity o:optu)
+           {
+               Lead led2 =new Lead();
+               led2.LastName =o.Name;
+               led2.company ='FRIENDS';
+               led2.AnnualRevenue =o.ExpectedRevenue;
+               Led1.add(led2);
+               system.debug(led2);
+               
+           }
+           insert led1;
+    }
+
+}
+*******************************************************************************************************
+To run the code:-
+Apexbasic.opt()
+
+*******************************************************************************************************
