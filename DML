@@ -1,0 +1,19 @@
+DML
+*************************************************
+public class DML1 
+{
+    public static void Insertmethod1()
+    {
+        List<Account> Acc= new List<account>();
+        Account a= new Account();
+        a.Name= 'Account From Apex 2';
+        a.Active__c = 'true';
+        a.AnnualRevenue = 45000;
+        a.phone ='9787665432';
+        Acc.add(a);
+        insert Acc;
+        
+    }
+
+}
+*************************************************
